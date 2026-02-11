@@ -2,29 +2,33 @@
 
 This is a sample repository for building data pipelines in Python, heavily inspired by the dbt (data build tool) core platform structure, but leveraging Python's flexibility and Streamlit for the UI.
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- pip
+## How to use
 
 ### Installation
 
-1.  Clone the repository:
+1.  Clone the repository and remove the git tracking to start your project fresh. Then, initialize your own git repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/educifuentes/dbt-boilerplate-edu.git
     cd dbt-boilerplate-edu
+    rm -rf .git
+    git init
     ```
 
-2.  Install dependencies:
+2.  Create virtual environment
+
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
+
+3.  Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  Run the application:
+4.  Run the application:
     ```bash
     streamlit run app.py
     ```
@@ -83,8 +87,6 @@ The `utilities` folder contains helper modules to speed up development:
 - **`ui_components/render_docs.py`**: Functions to render professional documentation from dbt-style YAML files.
 - **`ui_components/render_model.py`**: Standard UI component to display data model summaries (shape, columns, types).
 - **`ui_components/yaml_loader.py`**: Safe loading of YAML configuration files, handling relative paths.
-
-Prebuilt utilities
 
 ## Development
 
