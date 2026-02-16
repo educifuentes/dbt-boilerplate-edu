@@ -58,6 +58,10 @@ dbt-boilerplate-edu
         ├── render_docs.py # Documentation renderer from YAML
         ├── render_model.py # Model summary UI component
         └── yaml_loader.py # YAML configuration loader
+        dataframe_column_display.py # format columns for user display
+        ├── yaml_loader.py # YAML configuration loader
+        └── dataframe_column_display.py # format columns for user display
+
 ```
 
 ### Key Directories
