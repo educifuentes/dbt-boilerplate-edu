@@ -3,9 +3,6 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 from utilities.data_connection_config import TTL_VALUE
-from utilities.transformations.date_parsing import parse_spanish_month_year
-from utilities.transformations.yes_no_to_boolean import yes_no_to_boolean
-from utilities.transformations.add_row_number import add_row_number
 
 
 

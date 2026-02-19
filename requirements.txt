@@ -1,3 +1,5 @@
 pandas
 streamlit
+st-gsheets-connection
+Authlib>=1.3.2
 pyyaml
