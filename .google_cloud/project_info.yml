@@ -1,0 +1,10 @@
+projects:
+  - name: Personal Dashboards
+    project_id: personal-dashboards-487913
+    project_number: 246254753086
+    url: https://console.cloud.google.com/home/dashboard?project=personal-dashboards-487913
+  - name: Consulting Data Studio
+    project_id: consulting-data-studio
+    project_number: 244605202539
+    url: https://console.cloud.google.com/home/dashboard?project=consulting-data-studio
+
