@@ -4,9 +4,17 @@ projects:
     project_id: personal-dashboards-487913
     project_number: 246254753086
     url: https://console.cloud.google.com/home/dashboard?project=personal-dashboards-487913
+    credentials:
+        - name: Service Account
+          description: Service account for personal dashboards project
+          service_account_email:
   - name: Consulting Data Studio
     description: Apps for consulting work related to data governance and dashboards
     project_id: consulting-data-studio
     project_number: 244605202539
     url: https://console.cloud.google.com/home/dashboard?project=consulting-data-studio
+  - credentials:
+      - name: Service Account
+        description: Service account for personal dashboards project
+        service_account_email:
 
